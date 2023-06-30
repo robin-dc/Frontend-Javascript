@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    padding:1rem;
+}
+ul{
+    list-style: none;
+}
+
+/* Change the color of your h1
+Add a border around your ul
+Add a hover effect to change the background color of your list items */
+.name{
+    color:navy;
+}
+.list-group{
+    padding:1rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.list-item:nth-child(even){
+    color: gray
+}
+.list-item:nth-child(odd){
+    color: red;
+    font-weight: 500;
+}
+.date{
+    text-align: center;
+    font-size: 2rem;
+    padding:2rem;
+
+}
+.container{
+    display:flex;
+    width:100%;
+    align-items: center;
+    gap:2rem;
+    margin-bottom: 1rem;
+}
+.avatar{
+    border-radius: 50%;
+    width:10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+.countdown{
+    color:red;
+    font-weight: 600;
+}

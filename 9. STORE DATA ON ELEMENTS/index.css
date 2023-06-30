@@ -1,0 +1,36 @@
+li {
+    list-style-type: none;
+    width: 33%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+/* Your code here */
+li[data-id="dairy"]{
+    color:yellow;
+}
+li[data-id="drinks"]{
+    color:green;
+}
+li[data-id="bakery"]{
+    color:brown;
+}
+li[data-id="canned"]{
+    color:silver;
+}
+li[data-id="frozen"]{
+    color:skyblue;
+}
+li[data-id="meats"]{
+    color:red;
+}
+li[data-id="produce"]{
+    color:violet;
+}
+li[data-id="toiletries"]{
+    color:beige;
+}
+li[data-id="other"]{
+    color:black;
+}

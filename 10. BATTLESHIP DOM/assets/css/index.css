@@ -1,0 +1,50 @@
+/* Your code here */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    text-align: center;
+    margin: 1rem 0;
+}
+div{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+ul{
+    list-style:none;
+    display:flex;
+    justify-content: center;
+    gap:0.5rem;
+}
+li{
+    height:3rem;
+    width:3rem;
+    border: 1px solid black;
+    display:grid;
+    place-items: center;
+    cursor:pointer;
+    border-radius: 3px;
+}
+h3{
+    text-align: center;
+    color:green;
+}
+.btn{
+    color:white;
+    background-color: gray;
+    border-radius: 10px;
+    cursor:pointer;
+    padding: 0.3rem;
+    width:10rem;
+    margin:0 auto;
+    display:grid;
+    place-items: center;
+}
+.btn:active{
+    scale:0.9
+}

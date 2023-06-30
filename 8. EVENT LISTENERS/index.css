@@ -1,0 +1,12 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.bg-red{
+    background-color: red;
+}
